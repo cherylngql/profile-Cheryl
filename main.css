@@ -1,0 +1,49 @@
+#menu {
+  position: fixed;
+  top: 100px;
+  left: 50px;
+  width: 250px;
+  padding-right: 20px;
+}
+h4 {
+  width: 60%;
+  color: rgb(89, 223, 233);
+  font-family: zillaslab, Palatino, Benton Sans;
+  text-align: right;
+  font-size: 25px;
+  display: block;
+  margin: 10px 10px 30px 10px;
+}
+li {
+  color: rgb(44, 136, 143);
+  text-shadow: 1px 1px 2px rgb(20, 92, 114);
+  text-align: right;
+  font-size: 20px;
+  display: inline-block;
+  width: 50%;
+  margin: 10px 10px;
+}
+#home, #about {
+  position: relative;
+  left: 300px;
+  display: inline-block;
+  width: 800px;
+}
+img {
+  width: 80%;
+  position: relative;
+  left: 50px;
+  top: 100px;
+  padding-bottom: 200px;
+}
+#my-portrait {
+  width: 60%;
+}
+p {
+  display: inline-block;
+  width: 40%;
+  position: relative;
+  left: 100px;
+  top: 100px;
+  float: right;
+}
