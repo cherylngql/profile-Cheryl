@@ -14,7 +14,10 @@ h4 {
   display: block;
   margin: 10px 10px 30px 10px;
 }
-li {
+ul {
+  list-style-type: none;
+}
+li a {
   color: rgb(44, 136, 143);
   text-shadow: 1px 1px 2px rgb(20, 92, 114);
   text-align: right;
@@ -22,8 +25,9 @@ li {
   display: inline-block;
   width: 50%;
   margin: 10px 10px;
+  text-decoration: none;
 }
-#home, #about {
+#home, #about, #projects{
   position: relative;
   left: 300px;
   display: inline-block;
@@ -39,11 +43,23 @@ img {
 #my-portrait {
   width: 60%;
 }
+.project {
+  width: 50%;
+  position: relative;
+  padding-bottom: 0px;
+}
 p {
-  display: inline-block;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+  text-shadow: none;
+  display: block;
   width: 40%;
   position: relative;
   left: 100px;
   top: 100px;
   float: right;
+}
+img.project:hover {
+  border: rgb(81, 147, 192) solid 1.5px;
 }
